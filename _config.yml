@@ -1,28 +1,40 @@
-name: bespoken
 favicon: null
-layout_spectrum: 0.7369131054729223
-typography_spectrum: 0.6165769575163722
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: bespoken
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#B8B42D'
-    - '#697A21'
-    - '#FFFCE8'
-    - '#3E363F'
-    - '#DD403A'
-  brandStrength: 0.8136081919074059
-  lightness: 0.3529714331962168
-  saturation: 0.20637881802394986
-  rhythmicContrast: 0.04056926490738988
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.7634408
+  brandStrength: 0.8136081919074059
+  lightness: 0.1505376
+  brandColors:
+    - '#000000'
+    - '#3F3F3F'
+    - '#817F6B'
+    - '#C1C1C5'
+    - '#A4A393'
+  rhythmicContrast: 0.609319
+typography_spectrum: 0.7204301
+layout_spectrum: 0.06810036
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
