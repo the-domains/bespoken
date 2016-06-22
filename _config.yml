@@ -1,7 +1,7 @@
 name: bespoken
 favicon: null
 layout_spectrum: 0.06810036
-typography_spectrum: 0.7204301
+typography_spectrum: 0.74303
 collections:
   - index:
       path: /
